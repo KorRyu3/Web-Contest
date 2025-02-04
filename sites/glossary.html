@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <!--     fonts     -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="img/favicon.ico">
+
+    <!--     css     -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>用語集｜ストレスとの共存</title>
+
+</head>
+
+<body>
+    <!--ヘッダー-->
+    <header id="header">
+        <div class="flexbox">
+            <h1><a href="top.html"><img class="title_logo" src="img/rogo.PNG" alt=""></a></h1>
+            <section id="hamburger-span-child" class="hamburger-span">
+                <div class="btn-trigger" id="btn08">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </section>
+            <nav id="global_navi">
+                <ul class="gnavi">
+                    <!--  今の現在地に class="current" を付ける -->
+                    <li class="box-item"><a href="top.html">TOP</a></li>
+                    <li class="box-item has-child"><a href="stress.html">ストレスについて</a>
+                        <ul>
+                            <li><a href="definition.html">ストレスとは</a></li>
+                            <li><a href="cause.html">原因</a></li>
+                            <li><a href="symptom.html">症状</a></li>
+                        </ul>
+                    </li>
+                    <li class="box-item"><a class="pl_10" href="voice.html">みんなの声</a></li>
+                    <li class="box-item has-child"><a href="life.html">予防・対処</a>
+                        <ul>
+                            <li><a href="prevention.html">ストレスの予防</a></li>
+                            <li><a href="countermeasure.html">ストレスの対処</a></li>
+                        </ul>
+                    </li>
+                    <li class="box-item"><a class="pl_10" href="summary.html">まとめ</a></li>
+                    <li class="box-item has-child"><a href="other.html">その他</a>
+                        <ul>
+                            <li  class="reigai"><a href="check.html">ストレスチェック</a></li>
+                            <li><a class="current" href="glossary.html">用語集</a></li>
+                            <li><a href="map.html">サイトマップ</a></li>
+                            <li class="reigai"><a href="biblio.html">参考文献・サイト</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <!--  言語切り替え    -->
+            <div class="cp_ipselect cp_ipselect_ja">
+                <select class="cp_sl06" onChange="location.href=value;" required>
+                    <option value="" hidden disabled selected></option>
+
+                    <!-- valueに対応リンクを張る -->
+                    <option selected value="glossary.html">日本語</option>
+                    <option class="cp_ipselect_option" value="en/glossary_en.html">English</option>
+
+                </select>
+                <span class="cp_sl06_highlight"></span>
+                <span class="cp_sl06_selectbar"></span>
+                <label class="cp_sl06_selectlabel_img"><i class="fas fa-globe-asia earthmark" alt="地球"></i></label>
+                <label class="cp_sl06_selectlabel">Language</label>
+            </div>
+            <div id="circle-bg1" class="circle-bg circle-bg2"></div>
+        </div>
+    </header>
+    <!--/ヘッダー-->
+
+    <!--   wrapper  -->
+    <div id="glossary-wrapper">
+        <!-- sitemap-min -->
+		<section id="sitemap-min" style="margin-right: 0px;">
+            <div class="sitemap-min-moji"><span>サイトマップ</span></div>
+            <ul class="sitemap-min2">
+                <li class="catWrap-min">
+                    <div class="linkWrap-min">
+                        <h4 class="mainttl-min sitemap_reigai-min"><a href="top.html">トップページ</a></h4>
+                    </div>
+                </li>
+                <li class="catWrap-min">
+                    <div class="linkWrap-min">
+                        <h4 class="mainttl-min"><a href="stress.html">ストレスについて</a></h4>
+                            <ul class="linkList-min">
+                                <li><a href="definition.html">ストレスとは</a></li>
+                                <li><a href="cause.html">原因</a></li>
+                                <li><a href="symptom.html">症状</a></li>
+                            </ul>
+                    </div>
+                </li>
+                <li class="catWrap-min">
+                    <div class="linkWrap-min">
+                        <h4 class="mainttl-min sitemap_reigai-min"><a href="voice.html">みんなの声</a></h4>
+                    </div>
+                </li>
+                <li class="catWrap-min">
+                    <div class="linkWrap-min">
+                        <h4 class="mainttl-min"><a href="life.html">予防・対処</a></h4>
+                            <ul class="linkList-min">
+                                <li><a href="prevention.html">ストレスの予防</a></li>
+                                <li><a href="countermeasure.html">ストレスの対処</a></li>
+                            </ul>
+                    </div>
+                </li>
+                <li class="catWrap-min">
+                    <div class="linkWrap-min">
+                        <h4 class="mainttl-min sitemap_reigai-min"><a href="summary.html">まとめ</a></h4>
+                    </div>
+                </li>
+                <li class="catWrap-min">
+                    <div class="linkWrap-min">
+                        <h4 class="mainttl-min"><a href="other.html">その他</a></h4>
+                            <ul class="linkList-min">
+                                <li><a href="check.html">ストレスチェック</a></li>
+                                <li><a href="glossary.html">用語集</a></li>
+                                <li><a href="map.html">サイトマップ</a></li>
+                                <li><a href="biblio.html">参考文献・サイト</a></li>
+                            </ul>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <!--   main   -->
+        <div class="main">
+            <!--     パンくずリスト    -->
+            <section>
+                <ol class="breadcrumb">
+                    <i class="fas fa-home home"></i>
+                    <!-- 1つめ -->
+                    <li>
+                        <a href="top.html">TOP</a>
+                    </li>
+                    <!-- 2つめ -->
+                    <li>
+                        <a href="other.html">その他</a>
+                    </li>
+                    <!-- 3つめ -->
+                    <li>
+                        <p>用語集</p>
+                    </li>
+                </ol>
+            </section>
+            <!--    /パンくずリスト    -->
+            <section>
+                <h2>用語集</h2>
+                <section class="honbun">
+                    <section class="glossary">
+                        <div class="midasi">
+                            <p class="table">目次</p>
+                            <ul>
+                                <li><a href="#i"><span class="number">1</span>あ行</a></li>
+                                <li><a href="#i-2"><span class="number">2</span>か行</a></li>
+                                <li><a href="#i-3"><span class="number">3</span>さ行</a></li>
+                                <li><a href="#i-4"><span class="number">4</span>た行</a></li>
+                                <li><a href="#i-5"><span class="number">6</span>な行</a></li>
+                                <li><a href="#i-6"><span class="number">5</span>は行</a></li>
+                                <li><a href="#i-7"><span class="number">6</span>ま行</a></li>
+                            </ul>
+                        </div>
+                        <div class="komidashi_ja" id="i">
+                            <h3>あ行</h3>
+                        </div>
+                        <h4>胃潰瘍（いかいよう）</h4>
+                        <p>胃酸が過剰に分泌されることによって胃が傷つく病気。ストレスや菌などによって引き起こされる。</p>
+                        <div class="komidashi_ja" id="i-2">
+                            <h3>か行</h3>
+                        </div>
+                        <h4>眼瞼痙攣（がんけんけいれん）</h4>
+                        <p>まぶたのけいれんや眼が開けにくい、屋外が眩しいといった症状。
+                        </p>
+                        <h4>恐怖症（きょうふしょう）</h4>
+                        <p>特定のある一つのものに対して異常な恐怖を感じる症状。</p>
+                        <h4>交感神経（こうかんしんけい）</h4>
+                        <p>自律神経系の一つ。活動状態や緊張状態の時に働く。</p>
+                        <div class="komidashi_ja" id="i-3">
+                            <h3>さ行</h3>
+                        </div>
+                        <h4>視床（ししょう）</h4>
+                        <p>多くの感覚神経（外界から得た情報を脳に伝える神経）を中継する場。</p>
+                        <h4>視床下部（ししょうかぶ）</h4>
+                        <p>体温・水分・血糖値・血圧などを調節する中枢。</p>
+                        <h4>社会不安障害（しゃかいふあんしょうがい）</h4>
+                        <p>人に注目されたり恥ずかしい思いをすることに恐怖を感じ、人が多くいる場所（電車・バス・繁華街など）に強い苦痛を感じる病気。</p>
+                        <h4>自律神経系（じりつしんけいけい）</h4>
+                        <p>内臓や腺、血管などに自動的に調節する。交感神経と副交感神経の二つからなる。</p>
+                        <h4>ストレッサー</h4>
+                        <p>ストレスの原因となる何らかの刺激の事。刺激の種類は様々である。（気候・環境・感情など）</p>
+                        <div class="komidashi_ja" id="i-4">
+                            <h3>た行</h3>
+                        </div>
+                        <h4>大脳新皮質（だいのうしんひしつ）</h4>
+                        <p>視覚・聴覚などの情報を処理したり、記憶・思考などの高度な精神活動に関係した場所が発達している。</p>
+                        <h4>大脳皮質（だいのうひしつ）</h4>
+                        <p>大脳の表面に広がる薄い層。知覚、思考、推理、記憶などをつかさどっている。</p>
+                        <div class="komidashi_ja" id="i-5">
+                            <h3>な行</h3>
+                        </div>
+                        <h4>内分泌系（ないぶんぴつけい）</h4>
+                        <p>体内でホルモンを分泌する腺を持つ器官の総称。下垂体・松果体・卵巣・精巣などがこれにあたる。</p>
+                        <div class="komidashi_ja" id="i-6">
+                            <h3>は行</h3>
+                        </div>
+                        <h4>パニック障害（ぱにっくしょうがい）</h4>
+                        <p>突然理由もなく「このまま死んでしまうのではないか」というほどの不安や恐怖に駆られ、激しい動悸や目眩・手足の震えなどの症状が繰り返される病気。</p>
+                        <h4>副交感神経（ふくこうかんしんけい）</h4>
+                        <p>自律神経系の一つ。交感神経系とは対照的に、休息して、リラックスした状態の時に働く。</p>
+                        <h4>扁桃体（へんとうたい）</h4>
+                        <p>大脳辺縁系の一部で、突発的な感情の反応の処理と記憶において重要な役割をもっている。</p>
+                        <h4>ホメオスタシス</h4>
+                        <p>恒常性ともいわれる。外部の環境が変化しても、体内の状態を一定に保とうとする性質。</p>
+                        <div class="komidashi_ja" id="i-7">
+                            <h3>ま行</h3>
+                        </div>
+                        <h4>免疫系（めんえきけい）</h4>
+                        <p>生体に異物が侵入すると、それを攻撃する働きを持っているしくみ。</p>
+                    </section>
+                    <section class="biblio_min">
+                        <h3>参考文献・サイト</h3>
+                        <ul>
+                            <li>・福間詳 「ストレスのはなし-メカニズムと対処法」 (中公新書・2017/4/19)</li>
+                            <li>・榊原隆人「生物基礎早わかり一問一答」（KADOKAWA・2017/5/15）</li>
+                            <li>浅島誠 ほか27名 「スタンダード生物」（東京書籍・2020/2/10）</li>
+                            <li>・<a href="https://www.mhlw.go.jp/kokoro/youth/stress/know/index.html">厚生労働省 こころもメンテしよう～若者を支えるメンタルヘルスサイト～ ー心の病気について知る</a></li>
+                            <li>・<a href="https://www.h-cl.org/column/gastric-ulcer/">ヒロオカクリニック</a></li>
+                            <li>・<a href=" http://www.pref.kyoto.jp/health/health/health09_b.html">ストレスの仕組みー生物、心理、社会的に見た場合/京都府HP </a></li>
+                            <li>・<a href="https://ja.wikipedia.org/wiki/%E5%86%85%E5%88%86%E6%B3%8C%E5%99%A8">内分泌器 / ウィキペディア</a></li>
+                        <li>・<a href="https://ja.wikipedia.org/wiki/%E6%81%90%E6%80%96%E7%97%87">恐怖症 / ウィキペディア</a></li>
+                        <li>・<a href="https://ja.wikipedia.org/wiki/%E7%9C%BC%E7%9E%BC%E7%97%99%E6%94%A3">眼瞼痙攣 / ウィキペディア/</a></li>
+                        </ul>
+                    </section>
+                </section>
+            </section>
+            <section>
+                <div class="page">
+                    <a href="check.html" class="btn btn-border btn-border_before">前のページ</a>
+                    <a href="map.html" class="btn btn-border btn-border_after">次のページ</a>
+                </div>
+                <div class="page-name">
+                    <p class="page-name-plev">ストレスチェック</p>
+                    <p class="page-name-next">サイトマップ</p>
+                </div>
+            </section>
+        </div>
+        <!--  /main   -->
+    </div>
+    <!--  /wrapper  -->
+
+    <!--  フッター  -->
+    <footer class="footer">
+        <small>&copy; 2021 ストレスとの共存</small>
+    </footer>
+    <!--  /フッター  -->
+
+    <!--  ページトップリンク  -->
+    <p id="page-top"><a href="#"><img src="img/yazirusi1.PNG" alt=""></a></p>
+
+    <!--     js     -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/jquery.ripples-min.js"></script>
+
+    <script src="js/script.js"></script>
+</body></html>

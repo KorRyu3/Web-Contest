@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <!--     fonts     -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="img/favicon.ico">
+
+    <!--     css     -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>その他｜ストレスとの共存</title>
+
+</head>
+
+<body>
+    <!--ヘッダー-->
+    <header id="header">
+        <div class="flexbox">
+            <h1><a href="top.html"><img class="title_logo" src="img/rogo.PNG" alt=""></a></h1>
+            <section id="hamburger-span-child" class="hamburger-span">
+                <div class="btn-trigger" id="btn08">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </section>
+            <nav id="global_navi">
+                <ul class="gnavi">
+                    <!--  今の現在地に class="current" を付ける -->
+                    <li class="box-item"><a href="top.html">TOP</a></li>
+                    <li class="box-item has-child"><a href="stress.html">ストレスについて</a>
+                        <ul>
+                            <li><a href="definition.html">ストレスとは</a></li>
+                            <li><a href="cause.html">原因</a></li>
+                            <li><a href="symptom.html">症状</a></li>
+                        </ul>
+                    </li>
+                    <li class="box-item"><a class="pl_10" href="voice.html">みんなの声</a></li>
+                    <li class="box-item has-child"><a href="life.html">予防・対処</a>
+                        <ul>
+                            <li><a href="prevention.html">ストレスの予防</a></li>
+                            <li><a href="countermeasure.html">ストレスの対処</a></li>
+                        </ul>
+                    </li>
+                    <li class="box-item"><a class="pl_10" href="summary.html">まとめ</a></li>
+                    <li class="box-item has-child"><a class="current" href="other.html">その他</a>
+                        <ul>
+                            <li  class="reigai"><a href="check.html">ストレスチェック</a></li>
+                            <li><a href="glossary.html">用語集</a></li>
+                            <li><a href="map.html">サイトマップ</a></li>
+                            <li class="reigai"><a href="biblio.html">参考文献・サイト</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <!--  言語切り替え    -->
+            <div class="cp_ipselect cp_ipselect_ja">
+                <select class="cp_sl06" onChange="location.href=value;" required>
+                    <option value="" hidden disabled selected></option>
+
+                    <!-- valueに対応リンクを張る -->
+                    <option selected value="other.html">日本語</option>
+                    <option class="cp_ipselect_option" value="en/other_en.html">English</option>
+
+                </select>
+                <span class="cp_sl06_highlight"></span>
+                <span class="cp_sl06_selectbar"></span>
+                <label class="cp_sl06_selectlabel_img"><i class="fas fa-globe-asia earthmark" alt="地球"></i></label>
+                <label class="cp_sl06_selectlabel">Language</label>
+            </div>
+            <div id="circle-bg1" class="circle-bg circle-bg2"></div>
+        </div>
+    </header>
+    <!--/ヘッダー-->
+
+    <!--   wrapper  -->
+    <div id="wrapper">
+        <!-- particles.js container -->
+        <div id="particles-js"></div>
+        <!-- sitemap-min -->
+		<section id="sitemap-min" style="margin-right: 0px;">
+            <div class="sitemap-min-moji"><span>サイトマップ</span></div>
+            <ul class="sitemap-min2">
+                <li class="catWrap-min">
+                    <div class="linkWrap-min">
+                        <h4 class="mainttl-min sitemap_reigai-min"><a href="top.html">トップページ</a></h4>
+                    </div>
+                </li>
+                <li class="catWrap-min">
+                    <div class="linkWrap-min">
+                        <h4 class="mainttl-min"><a href="stress.html">ストレスについて</a></h4>
+                            <ul class="linkList-min">
+                                <li><a href="definition.html">ストレスとは</a></li>
+                                <li><a href="cause.html">原因</a></li>
+                                <li><a href="symptom.html">症状</a></li>
+                            </ul>
+                    </div>
+                </li>
+                <li class="catWrap-min">
+                    <div class="linkWrap-min">
+                        <h4 class="mainttl-min sitemap_reigai-min"><a href="voice.html">みんなの声</a></h4>
+                    </div>
+                </li>
+                <li class="catWrap-min">
+                    <div class="linkWrap-min">
+                        <h4 class="mainttl-min"><a href="life.html">予防・対処</a></h4>
+                            <ul class="linkList-min">
+                                <li><a href="prevention.html">ストレスの予防</a></li>
+                                <li><a href="countermeasure.html">ストレスの対処</a></li>
+                            </ul>
+                    </div>
+                </li>
+                <li class="catWrap-min">
+                    <div class="linkWrap-min">
+                        <h4 class="mainttl-min sitemap_reigai-min"><a href="summary.html">まとめ</a></h4>
+                    </div>
+                </li>
+                <li class="catWrap-min">
+                    <div class="linkWrap-min">
+                        <h4 class="mainttl-min"><a href="other.html">その他</a></h4>
+                            <ul class="linkList-min">
+                                <li><a href="check.html">ストレスチェック</a></li>
+                                <li><a href="glossary.html">用語集</a></li>
+                                <li><a href="map.html">サイトマップ</a></li>
+                                <li><a href="biblio.html">参考文献・サイト</a></li>
+                            </ul>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <!--   main   -->
+        <div class="main">
+            <!--     パンくずリスト    -->
+            <section>
+                <ol class="breadcrumb">
+                    <i class="fas fa-home home"></i>
+                    <!-- 1つめ -->
+                    <li>
+                        <a href="top.html">TOP</a>
+                    </li>
+                    <!-- 2つめ -->
+                    <li>
+                        <p>その他</p>
+                    </li>
+                </ol>
+            </section>
+            <!--    /パンくずリスト    -->
+            <section>
+                <h2>その他</h2>
+                <section class="honbun">
+                    <div class="cohesive">
+                        <p>自分のストレス状態を確認できます。</p>
+                        <div><a href="check.html">ストレスチェック</a></div>
+                    </div>
+                    <div class="cohesive">
+                        <p>サイト内の用語をまとめました。</p>
+                        <div><a href="glossary.html">用語集</a></div>
+                    </div>
+                    <div class="cohesive">
+                        <p>このサイトページの一覧です。</p>
+                        <div><a href="map.html">サイトマップ</a></div>
+                    </div>
+                    <div class="cohesive">
+                        <p>サイト作成にあたって参考にしたものをまとめています。</p>
+                        <div><a href="biblio.html">参考文献・サイト</a></div>
+                    </div>
+                </section>
+            </section>
+            <section>
+                <div class="page">
+                    <a href="summary.html" class="btn btn-border btn-border_before">前のページ</a>
+                    <a href="check.html" class="btn btn-border btn-border_after">次のページ</a>
+                </div>
+                <div class="page-name">
+                    <p class="page-name-plev">まとめ</p>
+                    <p class="page-name-next">ストレスチェック</p>
+                </div>
+            </section>
+        </div>
+        <!--  /main   -->
+    </div>
+    <!--  /wrapper  -->
+
+    <!--  フッター  -->
+    <footer class="footer">
+        <small>&copy; 2021 ストレスとの共存</small>
+    </footer>
+    <!--  /フッター  -->
+
+    <!--  ページトップリンク  -->
+    <p id="page-top"><a href="#"><img src="img/yazirusi1.PNG" alt=""></a></p>
+
+    <!--     js     -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/jquery.ripples-min.js"></script>
+
+    <!-- あわあわ -->
+    <script src="js/particles.min.js"></script>
+    <script src="js/millet.js"></script>
+
+    <script src="js/script.js"></script>
+</body></html>

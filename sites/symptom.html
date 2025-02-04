@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!--     fonts     -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="img/favicon.ico">
+
+    <!--     css     -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>症状｜ストレスとの共存</title>
+
+</head>
+
+<body>
+    <!--ヘッダー-->
+    <header id="header">
+        <div class="flexbox">
+            <h1><a href="top.html"><img class="title_logo" src="img/rogo.PNG" alt=""></a></h1>
+            <section id="hamburger-span-child" class="hamburger-span">
+                <div class="btn-trigger" id="btn08">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </section>
+            <nav id="global_navi">
+                <ul class="gnavi">
+                    <!--  今の現在地に class="current" を付ける -->
+                    <li class="box-item"><a href="top.html">TOP</a></li>
+                    <li class="box-item has-child"><a href="stress.html">ストレスについて</a>
+                        <ul>
+                            <li><a href="definition.html">ストレスとは</a></li>
+                            <li><a href="cause.html">原因</a></li>
+                            <li><a class="current" href="symptom.html">症状</a></li>
+                        </ul>
+                    </li>
+                    <li class="box-item"><a class="pl_10" href="voice.html">みんなの声</a></li>
+                    <li class="box-item has-child"><a href="life.html">予防・対処</a>
+                        <ul>
+                            <li><a href="prevention.html">ストレスの予防</a></li>
+                            <li><a href="countermeasure.html">ストレスの対処</a></li>
+                        </ul>
+                    </li>
+                    <li class="box-item"><a class="pl_10" href="summary.html">まとめ</a></li>
+                    <li class="box-item has-child"><a href="other.html">その他</a>
+                        <ul>
+                            <li  class="reigai"><a href="check.html">ストレスチェック</a></li>
+                            <li><a href="glossary.html">用語集</a></li>
+                            <li><a href="map.html">サイトマップ</a></li>
+                            <li class="reigai"><a href="biblio.html">参考文献・サイト</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <!--  言語切り替え    -->
+            <div class="cp_ipselect cp_ipselect_ja">
+                <select class="cp_sl06" onChange="location.href=value;" required>
+                    <option value="" hidden disabled selected></option>
+
+                    <!-- valueに対応リンクを張る -->
+                    <option selected value="symptom.html">日本語</option>
+                    <option class="cp_ipselect_option" value="en/symptom_en.html">English</option>
+
+                </select>
+                <span class="cp_sl06_highlight"></span>
+                <span class="cp_sl06_selectbar"></span>
+                <label class="cp_sl06_selectlabel_img"><i class="fas fa-globe-asia earthmark" alt="地球"></i></label>
+                <label class="cp_sl06_selectlabel">Language</label>
+            </div>
+            <div id="circle-bg1" class="circle-bg circle-bg2"></div>
+        </div>
+    </header>
+    <!--/ヘッダー-->
+
+    <!--   wrapper  -->
+    <div id="symptom-wrapper">
+        <!-- sitemap-min -->
+		<section id="sitemap-min" style="margin-right: 0px;">
+            <div class="sitemap-min-moji"><span>サイトマップ</span></div>
+            <ul class="sitemap-min2">
+                <li class="catWrap-min">
+                    <div class="linkWrap-min">
+                        <h4 class="mainttl-min sitemap_reigai-min"><a href="top.html">トップページ</a></h4>
+                    </div>
+                </li>
+                <li class="catWrap-min">
+                    <div class="linkWrap-min">
+                        <h4 class="mainttl-min"><a href="stress.html">ストレスについて</a></h4>
+                            <ul class="linkList-min">
+                                <li><a href="definition.html">ストレスとは</a></li>
+                                <li><a href="cause.html">原因</a></li>
+                                <li><a href="symptom.html">症状</a></li>
+                            </ul>
+                    </div>
+                </li>
+                <li class="catWrap-min">
+                    <div class="linkWrap-min">
+                        <h4 class="mainttl-min sitemap_reigai-min"><a href="voice.html">みんなの声</a></h4>
+                    </div>
+                </li>
+                <li class="catWrap-min">
+                    <div class="linkWrap-min">
+                        <h4 class="mainttl-min"><a href="life.html">予防・対処</a></h4>
+                            <ul class="linkList-min">
+                                <li><a href="prevention.html">ストレスの予防</a></li>
+                                <li><a href="countermeasure.html">ストレスの対処</a></li>
+                            </ul>
+                    </div>
+                </li>
+                <li class="catWrap-min">
+                    <div class="linkWrap-min">
+                        <h4 class="mainttl-min sitemap_reigai-min"><a href="summary.html">まとめ</a></h4>
+                    </div>
+                </li>
+                <li class="catWrap-min">
+                    <div class="linkWrap-min">
+                        <h4 class="mainttl-min"><a href="other.html">その他</a></h4>
+                            <ul class="linkList-min">
+                                <li><a href="check.html">ストレスチェック</a></li>
+                                <li><a href="glossary.html">用語集</a></li>
+                                <li><a href="map.html">サイトマップ</a></li>
+                                <li><a href="biblio.html">参考文献・サイト</a></li>
+                            </ul>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <!--   main   -->
+        <div class="main">
+            <!--     パンくずリスト    -->
+            <section>
+                <ol class="breadcrumb">
+                    <i class="fas fa-home home"></i>
+                    <!-- 1つめ -->
+                    <li>
+                        <a href="top.html">TOP</a>
+                    </li>
+                    <!-- 2つめ -->
+                    <li>
+                        <a href="stress.html">ストレスについて</a>
+                    </li>
+                    <!-- 3つめ -->
+                    <li>
+                        <p>症状</p>
+                    </li>
+                </ol>
+            </section>
+            <!--    /パンくずリスト    -->
+            <section>
+                <h2>症状</h2>
+                <section class="honbun">
+                    <section class="symptom">
+                        <section class="symptom_first">
+                            <p><a class="yougo" href="glossary.html#i-3">ストレッサー</a>は<a class="yougo" href="glossary.html#i-3">自律神経系</a>や<a class="yougo" href="glossary.html#i-5">内分泌系</a>に影響を与え、そこから様々な症状が引き起こされるので、<span class="thick-line">表れる症状は人によって様々です。</span></p>
+
+                            <h3>ストレスの初期症状</h3>
+                            <ul>
+                                <li>疲れやすい、疲れが取れない</li>
+                                <li>胃がもたれる</li>
+                                <li>頭が重い</li>
+                                <li>背中や腰が痛い etc...</li>
+                            </ul>
+                            <p>
+                                <br><span class="thick-line"><a class="yougo" href="glossary.html#i-3">ストレッサー</a>はその人の弱い部分を攻撃してきます。</span>初期の段階でストレスを感じていることに気が付くのは難しいですが、自分の体の不調に早く気が付くことで早期対処ができます。
+                                <br>ストレスを感じている期間が長くなればなるほど症状は悪化していき、心身症や適応障害に繋がります。
+                            </p>
+                            <h3>病気</h3>
+                            <p>ストレスによって引き起こされたり、悪化したりする病気は数多くありますが、その中でも特に有名なものを紹介します。ストレスの病名や症状は時代の変遷によって変化したり、違った病名でも似通っていたりする部分があります。これから紹介する病名や症状はあくまで一部だということをご了承ください。</p>
+                        </section>
+                        <div class="section s_04">
+                            <div class="accordion_one">
+                                <div class="accordion_header">
+                                    <h3>心身症</h3>
+                                    <div class="i_box"><i class="one_i"></i></div>
+                                </div>
+                                <div class="accordion_inner">
+                                    <div class="box_one">
+                                        <div class="txt_a_ac">
+                                            <p>ストレスによって<span class="thick-line">身体に症状</span>が出たり、<span class="thick-line">病気</span>になったりすることを心身症といいます。<br>心身症の主な症状を体の位置ごとに図に表しました。</p>
+                                            <div>
+                                                <a id="kakudai" href="img/karada.jpg" data-lightbox="abc" data-title="拡大図">
+                                                    <img src="img/karada.jpg" alt="心身症の主な症状"></a>
+                                            </div>
+                                            <h4>&#091;内容&#093;</h4>
+                                            <table>
+                                                <tr>
+                                                    <td>全身症状</td>
+                                                    <td>：</td>
+                                                    <td>だるい・疲れやすい・微熱</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>頭</td>
+                                                    <td>：</td>
+                                                    <td>頭痛・眩暈・耳鳴り・肩こり・脱毛</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>胸</td>
+                                                    <td>：</td>
+                                                    <td>不整脈・高血圧・動悸</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>胃腸</td>
+                                                    <td>：</td>
+                                                    <td>胃痛・吐き気・下痢</td>
+                                                </tr>
+                                            </table>
+                                            <p class="symptom_td_p">体の器官ごとにまとめるとこうなります。</p>
+                                            <table>
+                                                <tr>
+                                                    <td>消化器官系</td>
+                                                    <td>：</td>
+                                                    <td>胃もたれ・胃痛・吐き気・下痢</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>呼吸器系</td>
+                                                    <td>：</td>
+                                                    <td>息苦しさ・胸の圧迫感</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>循環器系</td>
+                                                    <td>：</td>
+                                                    <td>血圧上昇・目眩・耳鳴り・動悸・不整脈</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>骨格筋系</td>
+                                                    <td>：</td>
+                                                    <td>手足のしびれ・頭痛・肩こり</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>その他の症状</td>
+                                                    <td>：</td>
+                                                    <td>脱毛・微熱・<a class="yougo" class="yougo" href="glossary.html#i-2">眼瞼痙攣</a></td>
+                                                </tr>
+                                            </table>
+                                            <p class="symptom_td_p2">これらの症状は同時に起こることもあります。</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion_one">
+                                <div class="accordion_header">
+                                    <h3>うつ病</h3>
+                                    <div class="i_box"><i class="one_i"></i></div>
+                                </div>
+                                <div class="accordion_inner">
+                                    <div class="box_one">
+                                        <div class="txt_a_ac">
+                                            <p>うつ病は突然発症する病気ではなく、<span class="thick-line">小さな心の負担が積み重なって発症します。</span>
+                                                <br>心の病気の中で最も認知度が高いうつ病ですが、近年では症状や傾向が多様になっています。
+                                                <br>現在うつ病は落ち込みの程度（精神エネルギーの低下）で診断されます。
+                                            </p>
+                                            <div><a id="kakudai" href="img/utu.PNG" data-lightbox="abc" data-title="拡大図"><img id="sasikomi-img" src="img/utu.PNG" alt="utu"></a></div>
+                                            <p>具体的な症状は、持続する強い落ち込みや興味関心の消失、食事や睡眠の異常があげられます。
+                                                <br> 軽度なものは学校や職場になんとか通えるような状況です。日常生活には支障をきたさないため、周りに気付かれにくいです。
+                                                <br>重度なものになると、日常生活を送るのも難しくなります。ネガティブな妄想も激しくなり、死にたいなどと思うことも少なくありません。
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion_one">
+                                <div class="accordion_header">
+                                    <h3>適応障害</h3>
+                                    <div class="i_box"><i class="one_i"></i></div>
+                                </div>
+                                <div class="accordion_inner">
+                                    <div class="box_one">
+                                        <div class="txt_a_ac">
+                                            <p><span class="thick-line">環境の変化によるストレス</span>によって心身に何らかの症状がおき、生活に支障がでる病気です。
+                                                <br>有病率が５％～２０％、つまり少なくとも20人に一人は発症する可能性のある、誰にでも起こり得る病気です。その症状は心の不調から体の不調まで様々です。適応障害の特徴はストレスになる明確な原因が存在することです。
+                                                <br>この原因を取り除けば比較的すみやかに症状は改善されます。診断基準上ではストレスの原因が取り払われて6ヶ月以内に改善するとされています。
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion_one">
+                                <div class="accordion_header">
+                                    <h3>神経症</h3>
+                                    <div class="i_box"><i class="one_i"></i></div>
+                                </div>
+                                <div class="accordion_inner">
+                                    <div class="box_one">
+                                        <div class="txt_a_ac">
+                                            <p>神経症という名前ですが、実際に神経など体に異常があるわけではありません。
+                                                <br>神経症は、「<span class="thick-line">精神が衰弱した状態</span>」のことを指します。心身症も神経症の一つと分類されます。
+                                                <br>
+                                                <br>その症状は動悸・眩暈・落ち込み・無気力など様々な症状があげられます。それらの症状から自律神経失調症などに発展することもあります。
+                                                <br>
+                                                <br>神経症という名称はとても大きなくくりです。細分化すると
+                                            </p>
+                                            <ul class="ten">
+                                                <li><a class="yougo" href="glossary.html#i-6">パニック障害</a></li>
+                                                <li><a class="yougo" href="glossary.html#i-2">恐怖症</a></li>
+                                                <li><a class="yougo" href="glossary.html#i-3">社会不安障害</a></li>
+                                            </ul>
+                                            <p>などにわかれます。
+                                                <br>名前の通りどの病気も根底には「不安」「恐怖」があります。
+                                                <br>これらが発症する原因としては、
+                                            </p>
+                                            <ul>
+                                                <li>1．性格（完璧主義や神経質）</li>
+                                                <li>2．過去のトラウマ</li>
+                                                <li>3．環境</li>
+                                                <li>4．遺伝 </li>
+                                            </ul>
+                                            <p>が挙げられます。</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion_one">
+                                <div class="accordion_header">
+                                    <h3>治療</h3>
+                                    <div class="i_box"><i class="one_i"></i></div>
+                                </div>
+                                <div class="accordion_inner">
+                                    <div class="box_one">
+                                        <div class="txt_a_ac">
+                                            <p>心の病気は病院の方針や症状の重度、患者さんによって異なりますが、
+                                                <br>「薬物治療」「生活習慣の改善」「カウンセリング」が主になるでしょう。
+                                                <br>
+                                                <br>薬物治療は効果が速く出る利点がありますが、薬の投与をやめると症状が再発してしまう可能性がある欠点があります。病院によってはできるだけ薬を使わずに治療を行うという方針の病院もあります。
+                                                <br> 
+                                                <br>どの病気にも言えますが、早期治療が大切です。体調が優れなかったり、気分が落ち込む日は誰にでもありますが、その調子の悪さが続いたり、頻繁におきたり、今までのとは明らかに違うなと感じたら躊躇わず医療機関や専門家の方に相談してみてください。
+                                            </p>
+                                            <div><a id="kakudai" href="img/hanasi.PNG" data-lightbox="abc" data-title="拡大図"><img id="sasikomi-img" src="img/hanasi.PNG" alt="hanasi"></a></div>
+                                            <p>誰かに話すだけで心が楽になることもあります。
+                                                <br><span class="thick-line">決して一人で抱え込まず相談しましょう。</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="biblio_min">
+                        <h3>参考文献・サイト</h3>
+                        <ul>
+                            <li>・福間詳 「ストレスのはなし-メカニズムと対処法」 (中公新書・2017/4/19)
+                            </li>
+                            <li>・<a href="http://seseragi-mentalclinic.com/neurosis/" target="_blank">神経症ってどんな病気？ / せせらぎメンタルクリニック</a></li>
+                            <li>・<a href="https://cocoromi-cl.jp/knowledge/psychiatry-disease/stress/about-stress/" target="_blank">ストレス障害の症状・診断・治療 / 元住吉こころみクリニック</a>
+                            </li>
+                            <li>・<a href="https://cocoromi-cl.jp/knowledge/psychiatry-disease/depression/about-depression/">うつ病の症状・診断・治療 / 元住吉こころみクリニック</a></li>
+                        </ul>
+                    </section>
+                </section>
+            </section>
+            <section>
+                <div class="page">
+                    <a href="cause.html" class="btn btn-border btn-border_before">前のページ</a>
+                    <a href="voice.html" class="btn btn-border btn-border_after">次のページ</a>
+                </div>
+                <div class="page-name">
+                    <p class="page-name-plev">原因</p>
+                    <p class="page-name-next">みんなの声</p>
+                </div>
+            </section>
+        </div>
+        <!--  /main   -->
+    </div>
+    <!--  /wrapper  -->
+
+    <!--  フッター  -->
+    <footer class="footer">
+        <small>&copy; 2021 ストレスとの共存</small>
+    </footer>
+    <!--  /フッター  -->
+
+    <!--  ページトップリンク  -->
+    <p id="page-top"><a href="#"><img src="img/yazirusi1.PNG" alt=""></a></p>
+
+    <!--     js     -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/jquery.ripples-min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
+    <script src="js/script.js"></script>
+</body></html>

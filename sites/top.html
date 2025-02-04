@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!--     fonts     -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+
+    <link rel="shortcut icon" href="img/favicon.ico">
+
+    <!--     css     -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>ストレスとの共存</title>
+
+</head>
+
+<body>
+    <!--ヘッダー-->
+    <header id="top-header">
+        <div class="flexbox">
+            <h1><a href="top.html"><img class="title_logo" src="img/rogo.PNG" alt=""></a></h1>
+            <section class="hamburger-span">
+                <div class="btn-trigger" id="btn08">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </section>
+            <nav id="global_navi">
+                <ul class="gnavi">
+                    <li class="box-item"><a class="current" href="top.html">TOP</a></li>
+                    <li class="box-item has-child"><a href="stress.html">ストレスについて</a>
+                        <ul>
+                            <li><a href="definition.html">ストレスとは</a></li>
+                            <li><a href="cause.html">原因</a></li>
+                            <li><a href="symptom.html">症状</a></li>
+                        </ul>
+                    </li>
+                    <li class="box-item"><a class="pl_10" href="voice.html">みんなの声</a></li>
+                    <li class="box-item has-child"><a href="life.html">予防・対処</a>
+                        <ul>
+                            <li><a href="prevention.html">ストレスの予防</a></li>
+                            <li><a href="countermeasure.html">ストレスの対処</a></li>
+                        </ul>
+                    </li>
+                    <li class="box-item"><a class="pl_10" href="summary.html">まとめ</a></li>
+                    <li class="box-item has-child"><a href="other.html">その他</a>
+                        <ul>
+                            <li  class="reigai"><a href="check.html">ストレスチェック</a></li>
+                            <li><a href="glossary.html">用語集</a></li>
+                            <li><a href="map.html">サイトマップ</a></li>
+                            <li class="reigai"><a href="biblio.html">参考文献・サイト</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <!--  言語切り替え    -->
+            <div class="cp_ipselect cp_ipselect_ja">
+                <select class="cp_sl06" onChange="location.href=value;" required>
+                    <option value="" hidden disabled selected></option>
+                    <option selected value="top.html">日本語</option>
+                    <option class="cp_ipselect_option" value="en/index_en.html">English</option>
+                </select>
+                <span class="cp_sl06_highlight"></span>
+                <span class="cp_sl06_selectbar"></span>
+                <label class="cp_sl06_selectlabel_img"><i class="fas fa-globe-asia earthmark" alt="地球"></i></label>
+                <label class="cp_sl06_selectlabel">Language</label>
+            </div>
+            <div id="circle-bg1" class="circle-bg circle-bg2"></div>
+        </div>
+    </header>
+    <!--/ヘッダー-->
+
+    <!--メインビジュアル-->
+    <div id="main_visual"  class="animation2">
+        <p><span class="txt-rotate" data-period="2000" data-rotate='["ストレスとの共存", "ストレスについて", "みんなの声", "予防・対処", "まとめ", "その他" ]'></span></p>
+        <p class="txt-rotate2">ストレスとの共存</p>
+    </div>
+    <!--  スクロールバー  -->
+    <div class="scrolldown2"><span>Scroll</span></div>
+
+    <!--   wrapper  -->
+    <div id="top-wrapper">
+        <!--   main   -->
+        <section id="top">
+            <h2 class="top-h2">はじめに</h2>
+            <p> 現代はストレス社会といわれています。
+                <br>その理由としては、世の中の情勢やインターネットやSNSの普及、そのほか様々です。ストレスはため込み過ぎると心身に様々な悪影響を及ぼし、重大な病気に発展することもあります。
+                <br>人は生きている以上、ストレスを感じてしまうことは仕方がありません。
+                <br>では、<span class="thick-line">ストレスとうまく付き合っていくにはどうしたらいいのでしょうか？</span>
+                <br>このサイトではストレスのメカニズムからストレスとの向き合い方などについて紹介します。
+                <br><small>※<span class="aomoji">青文字</span>をクリックすると、用語集に飛びます。</small>
+                <br><small>※画像をクリックすると拡大します。</small>
+            </p>
+        </section>
+
+        <section class="environment">
+            <h3>推奨環境</h3>
+            <p class="environment-p">当サイトは、下記のウィンドウサイズでの閲覧を想定して制作されました。</p>
+            <p>PC版：1125px～1920px</p>
+            <p>スマホ版：320px～450px</p>
+        </section>
+        <section>
+            <div class="top-page">
+                <a href="stress.html" class="btn btn-border btn-border_after">次のページ</a>
+            </div>
+            <div class="top-page-name">
+                <p class="page-name-next">ストレスについて</p>
+            </div>
+        </section>
+        <!--  /main   -->
+    </div>
+    <!--  /wrapper  -->
+
+    <!--  フッター  -->
+    <footer class="footer">
+        <small>&copy; 2021 ストレスとの共存</small>
+    </footer>
+    <!--  /フッター  -->
+
+    <!--  ページトップリンク  -->
+    <p id="top-page-top"><a href="#"><img src="img/yazirusi1.PNG" alt=""></a></p>
+
+    <!--     js     -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/jquery.ripples-min.js"></script>
+    <script src="js/script.js"></script>
+</body></html>

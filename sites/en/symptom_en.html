@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <!--     fonts     -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="../img/favicon.ico">
+
+    <!--     css     -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>Symptom｜Coexistence With Stress</title>
+
+</head>
+
+<body>
+    <!--ヘッダー-->
+    <header id="header">
+        <div class="flexbox">
+            <h1 class="h1_en"><a href="index_en.html"><img class="title_logo_en" src="../img/rogo-en.png" alt="Coexistence-With-Stress"></a></h1>
+            <section class="hamburger-span-en">
+                <div class="btn-trigger" id="btn08">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </section>
+            <nav id="global_navi">
+                <ul class="gnavi">
+                    <!--  今の現在地に class="current" を付ける -->
+                    <li class="box-item-en"><a href="index_en.html">TOP</a></li>
+                    <li class="box-item-en has-child"><a href="stress_en.html">About stress</a>
+                        <ul>
+                            <li><a href="definition_en.html">What is stress</a></li>
+                            <li><a href="cause_en.html">Stressor</a></li>
+                            <li><a class="current" href="symptom_en.html">Symptom</a></li>
+                        </ul>
+                    </li>
+                    <li class="box-item-en"><a class="pl_10" href="voice_en.html">Voice</a></li>
+                    <li class="box-item-en has-child"><a href="life_en.html">Prevention &amp; Coping</a>
+                        <ul>
+                            <li><a href="prevention_en.html">Prevention</a></li>
+                            <li><a href="countermeasure_en.html">Coping</a></li>
+                        </ul>
+                    </li>
+                    <li class="box-item-en"><a class="pl_10" href="summary_en.html">Summary</a></li>
+                    <li class="box-item-en has-child"><a href="other_en.html">Other</a>
+                        <ul>
+                            <li><a href="check_en.html">Stress check</a></li>
+                            <li><a href="glossary_en.html">Glossary</a></li>
+                            <li><a href="map_en.html">Sitemap</a></li>
+                            <li class="reigai"><a href="biblio_en.html">References &amp; Site</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <!--  言語切り替え    -->
+            <div class="cp_ipselect cp_ipselect_en">
+                <select class="cp_sl06" onChange="location.href=value;" required>
+                    <option value="" hidden disabled selected></option>
+
+                    <!-- valueに対応リンクを張る -->
+                    <option value="../symptom.html">日本語</option>
+                    <option selected class="cp_ipselect_option" value="symptom_en.html">English</option>
+
+                </select>
+                <span class="cp_sl06_highlight"></span>
+                <span class="cp_sl06_selectbar"></span>
+                <label class="cp_sl06_selectlabel_img"><i class="fas fa-globe-asia earthmark" alt="earth"></i></label>
+                <label class="cp_sl06_selectlabel">Language</label>
+            </div>
+            <div id="circle-bg1" class="circle-bg circle-bg2"></div>
+        </div>
+    </header>
+    <!--/ヘッダー-->
+
+    <!--   wrapper  -->
+    <div id="symptom-wrapper">
+        <!-- sitemap-min -->
+		<section id="sitemap-min" style="margin-right: 0px;">
+            <div class="sitemap-min"><span>SiteMap</span></div>
+            <ul class="sitemap-min2">
+                <li class="catWrap-min">
+                    <div class="linkWrap-min">
+                        <h4 class="mainttl-min sitemap_reigai-min"><a href="index_en.html">TOP</a></h4>
+                    </div>
+                </li>
+                <li class="catWrap-min">
+                    <div class="linkWrap-min">
+                        <h4 class="mainttl-min"><a href="stress_en.html">About stress</a></h4>
+                            <ul class="linkList-min">
+                                <li><a href="definition_en.html">What is stress</a></li>
+                                <li><a href="cause_en.html">Stressor</a></li>
+                                <li><a href="symptom_en.html">Symptom</a></li>
+                            </ul>
+                    </div>
+                </li>
+                <li class="catWrap-min">
+                    <div class="linkWrap-min">
+                        <h4 class="mainttl-min sitemap_reigai-min"><a href="voice_en.html">Voice</a></h4>
+                    </div>
+                </li>
+                <li class="catWrap-min">
+                    <div class="linkWrap-min">
+                        <h4 class="mainttl-min"><a href="life_en.html">Prevention &amp; Coping</a></h4>
+                            <ul class="linkList-min">
+                                <li><a href="prevention_en.html">Prevention</a></li>
+                                <li><a href="countermeasure_en.html">Coping</a></li>
+                            </ul>
+                    </div>
+                </li>
+                <li class="catWrap-min">
+                    <div class="linkWrap-min">
+                        <h4 class="mainttl-min sitemap_reigai-min"><a href="summary_en.html">Summary</a></h4>
+                    </div>
+                </li>
+                <li class="catWrap-min">
+                    <div class="linkWrap-min">
+                        <h4 class="mainttl-min"><a href="other_en.html">Other</a></h4>
+                            <ul class="linkList-min">
+                                <li><a href="check_en.html">Stress check</a></li>
+                                <li><a href="glossary_en.html">Glossary</a></li>
+                                <li><a href="map_en.html">Sitemap</a></li>
+                                <li><a href="biblio_en.html">References &amp; Site</a></li>
+                            </ul>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <!--   main   -->
+        <div class="main">
+            <!--     パンくずリスト    -->
+            <section>
+                <ol class="breadcrumb">
+                    <i class="fas fa-home home"></i>
+                    <!-- 1つめ -->
+                    <li>
+                        <a href="index_en.html">TOP</a>
+                    </li>
+                    <!-- 2つめ -->
+                    <li>
+                        <a href="stress_en.html">About stress</a>
+                    </li>
+                    <!-- 3つめ -->
+                    <li>
+                        <p>Symptom</p>
+                    </li>
+                </ol>
+            </section>
+            <!--    /パンくずリスト    -->
+            <section>
+                <h2>Symptom</h2>
+                <section class="honbun">
+                    <section class="symptom">
+                        <section class="symptom_first">
+                            <p><a class="yougo" href="glossary_en.html#i-8">Stressors</a> affect <a class="yougo" href="glossary_en.html#i-9">the autonomic nervous system</a> and <a class="yougo" href="glossary_en.html#i-3">endocrine system</a>, causing a variety of symptoms. Therefore, <span class="thick-line">the symptoms that appear vary from person to person.</span></p>
+
+                            <h3>Early symptoms of stress</h3>
+                            <ul>
+                                <li>Getting tired easily, Not recovering from fatigue</li>
+                                <li>Having an stomach, Stomachache</li>
+                                <li>Headache</li>
+                                <li>Body pains</li>
+                            </ul>
+                            <p>
+                                <br><span class="thick-line">The <a class="yougo" href="glossary_en.html#i-8">stressor</a> will attack your weaknesses.</span> It's hard to notice that you are getting stressed in the early stages, but knowing your poor physical condition early can help you deal with it better.
+                                <br>The longer you feel stressed, the worse your symptoms will be, witch leads to psychosomatic disorders and adjustment disorders.
+                            </p>
+                            <h3>Illness</h3>
+                            <p>There are many kind of illnesses that can be caused or exacerbated by stress. Here are some of the most famous. The names and symptoms of stress can change over time, and the different names of illnesses can be similar.
+                                <br>Please note that the names and symptoms of the diseases listed below are only a few example.
+                            </p>
+                        </section>
+                        <div class="section s_04">
+                            <div class="accordion_one">
+                                <div class="accordion_header">
+                                    <h3>Psychosomatic disorder</h3>
+                                    <div class="i_box"><i class="one_i"></i></div>
+                                </div>
+                                <div class="accordion_inner">
+                                    <div class="box_one">
+                                        <div class="txt_a_ac">
+                                            <p>Psychosomatic disorder is the condition when stress causes <span class="thick-line">physical symptoms</span> and <span class="thick-line">illness.</span>
+                                                <br>The main symptoms of psychosomatic disorder are shown in the figure at each location of the body.
+                                            </p>
+                                            <div><a id="kakudai" href="../img/karada_en.jpg" data-lightbox="abc" data-title="Enlarged view"><img src="../img/karada_en.jpg" alt="心身症の主な症状"></a></div>
+                                            <h4>&#091;contents&#093;</h4>
+                                            <table>
+                                                <tr>
+                                                    <td>Whole body</td>
+                                                    <td>：</td>
+                                                    <td>Getting tired easily, Fatigue, Slight fever</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Head</td>
+                                                    <td>：</td>
+                                                    <td>Headache, Tinnitus, Hair loss, Stiff shoulder</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Body</td>
+                                                    <td>：</td>
+                                                    <td>arrhythmia, High blood pressure, Palpitations</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Stomach</td>
+                                                    <td>：</td>
+                                                    <td>Stomach pain, Nausea, Diarrhea</td>
+                                                </tr>
+                                            </table>
+                                            <p class="symptom_td_p">The symptoms witch are categorized by body organs include the following.</p>
+                                            <table>
+                                                <tr>
+                                                    <td>Digestive system</td>
+                                                    <td>：</td>
+                                                    <td>Stomach upset, Stomach pain, Nausea, Diarrhea</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Respiratory system</td>
+                                                    <td>：</td>
+                                                    <td>Difficulty breathing, Chest tightness</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Cardiovascular system</td>
+                                                    <td>：</td>
+                                                    <td>Blood pressure elevation, Dizziness, Tinnitus, Palpitations Arrhythmia</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>skeletal muscular system</td>
+                                                    <td>：</td>
+                                                    <td>Numbness in limbs, Headache, Stiff shoulders</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Other symptoms</td>
+                                                    <td>：</td>
+                                                    <td>Hair loss, Slight fever, <a class="yougo" href="glossary_en.html#i-3">Eyelid twitches</a>.</td>
+                                                </tr>
+                                            </table>
+                                            <p class="symptom_td_p2">These symptoms can occur at the same time.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion_one">
+                                <div class="accordion_header">
+                                    <h3>Depression</h3>
+                                    <div class="i_box"><i class="one_i"></i></div>
+                                </div>
+                                <div class="accordion_inner">
+                                    <div class="box_one">
+                                        <div class="txt_a_ac">
+                                            <p>Depression dose not occur suddenly, but <span class="thick-line">it is caused by an accumulation of small mental burdens.</span>
+                                                <br>It is the most recognized mental illness, but its symptoms and tendencies have diversified in recent years.
+                                                <br>It is currently diagnosed by the degree of depression &#040;decrease of mental energy&#041;.
+                                            </p>
+                                            <div><a id="kakudai" href="../img/utu_en.PNG" data-lightbox="abc" data-title="拡大図"><img id="sasikomi-img" src="../img/utu_en.PNG" alt="utu_en"></a></div>
+                                            <p>The symptoms include persistent depression, loss of interest, and eating and sleeping disorder.
+                                                <br>In mild cases, you will manage to go to school or work. It is hard to be noticed because it does not affect an everyday life. When it becomes severe, it is becomes difficult to live a daily life. Negative delusions become more intense, and some people might want to "die".
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion_one">
+                                <div class="accordion_header">
+                                    <h3>Adjustment disorder</h3>
+                                    <div class="i_box"><i class="one_i"></i></div>
+                                </div>
+                                <div class="accordion_inner">
+                                    <div class="box_one">
+                                        <div class="txt_a_ac">
+                                            <p>It is a illness that causes physical and mental symptoms due to <span class="thick-line">stress of changes in the environment</span>, witch leads to obstacles in a daily life.
+                                                <br>Since it is illness that can occur to anyone, the prevalence is 5 to 20%. The symptoms vary from mental to physical problems. The characteristic of adjustment disorders is that "there is obvious stress." If this cause is removed, the symptoms will improve relatively quickly.
+                                                <br>According to diagnostic criteria, the symptoms improve within 6 months after the cause stress is removed.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion_one">
+                                <div class="accordion_header">
+                                    <h3>Neurosis</h3>
+                                    <div class="i_box"><i class="one_i"></i></div>
+                                </div>
+                                <div class="accordion_inner">
+                                    <div class="box_one">
+                                        <div class="txt_a_ac">
+                                            <p>Although the name is neurosis, it does not mean that there are actually problems in the nerves.
+                                                <br>Neurosis refers to a "<span class="thick-line">mentally debilitated state.</span>" Psychosomatic disorder is also classified as one of the neuroses.
+                                                <br>The Symptoms include palpitation, dizziness, depression, and lethargy. These symptoms may develop into autonomic imbalance.
+                                                <br>The name of neurosis is a very big field. It is subdivided into such as
+                                            </p>
+                                            <ul class="ten">
+                                                <li><a class="yougo" href="glossary_en.html#i-7">Panic disorder</a></li>
+                                                <li><a class="yougo" href="glossary_en.html#i-7">Phobia</a></li>
+                                                <li><a class="yougo" href="glossary_en.html#i-8">Social Anxiety Disorder</a> </li>
+                                            </ul>
+                                            <p>it is divided into such as.
+                                                <br>As the name implies, all illnesses is based on "anxiety" and "fear".
+                                                <br>The causes of these symptoms are the following.
+                                            </p>
+                                            <ul>
+                                                <li>1．Personality &#040;perfectionism and nervousness&#041; </li>
+                                                <li>2．Past trauma</li>
+                                                <li>3．Environment</li>
+                                                <li>4．Heredity</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion_one">
+                                <div class="accordion_header">
+                                    <h3>Treatment</h3>
+                                    <div class="i_box"><i class="one_i"></i></div>
+                                </div>
+                                <div class="accordion_inner">
+                                    <div class="box_one">
+                                        <div class="txt_a_ac">
+                                            <p>Treatment for mental illness depends on a hospital policy, symptomatology severity, and patients.
+                                                <br>The main focus is on "drug treatment," "lifestyle improvement," and "counseling".
+                                                <br>Drug treatment has advantage that the effect comes out faster, but also has disadvantage that symptoms may recur when the drug is stopped.
+                                                <br>Early treatment is important for any illness. it is normal to feel sick or depressed sometimes, but if you feel sick frequently, or feel clearly different from usual, feel free to contact your healthcare provider or professional. 
+                                            </p>
+                                            <div><a id="kakudai" href="../img/hanasi_en.PNG" data-lightbox="abc" data-title="拡大図"><img id="sasikomi-img" src="../img/hanasi_en.PNG" alt="hanasi_en"></a></div>
+                                            <p>Sometimes just talking to someone makes you feel better.
+                                                <br><span class="thick-line">Don't try to deal with it by yourself, and please say to "I'm tired".</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="biblio_min">
+                        <h3>References &amp; Site</h3>
+                        <ul>
+                            <li>・福間詳 「ストレスのはなし-メカニズムと対処法」 (中公新書・2017/4/19)
+                            </li>
+                            <li>・<a href="http://seseragi-mentalclinic.com/neurosis/" target="_blank">神経症ってどんな病気？ / せせらぎメンタルクリニック</a></li>
+                            <li>・<a href="https://cocoromi-cl.jp/knowledge/psychiatry-disease/stress/about-stress/" target="_blank">ストレス障害の症状・診断・治療 / 元住吉こころみクリニック</a>
+                            </li>
+                            <li>・<a href="https://cocoromi-cl.jp/knowledge/psychiatry-disease/depression/about-depression/">うつ病の症状・診断・治療 / 元住吉こころみクリニック</a></li>
+                        </ul>
+                    </section>
+                </section>
+            </section>
+            <section>
+                <div class="page">
+                    <a href="cause_en.html" class="btn btn-border btn-border_before btn_before_en">Prev page</a>
+                    <a href="voice_en.html" class="btn btn-border btn-border_after btn_after_en">Next page</a>
+                </div>
+                <div class="page-name">
+                    <p class="page-name-plev">Stressor</p>
+                    <p class="page-name-next">Voice</p>
+                </div>
+            </section>
+        </div>
+        <!--  /main   -->
+    </div>
+    <!--  /wrapper  -->
+
+    <!--  フッター  -->
+    <footer class="footer">
+        <small>&copy; 2021 Coexistence With Stress</small>
+    </footer>
+    <!--  /フッター  -->
+
+    <!--  ページトップリンク  -->
+    <p id="page-top"><a href="#"><img src="../img/yazirusi1.PNG" alt=""></a></p>
+
+    <!--     js     -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="../js/jquery.ripples-min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
+    <script src="../js/script.js"></script>
+</body></html>

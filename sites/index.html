@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <link rel="shortcut icon" href="img/favicon.ico">
+
+    <!--     css     -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>ストレスとの共存</title>
+
+</head>
+
+<body>
+
+    <!--メインビジュアル-->
+    <div id="index_main_visual">
+        <!--追加-->
+        <div class="animation circle"></div>  <!--  スクロールバー  -->
+        <div class="scrolldown2"><span>Scroll</span></div>
+        <img src="img/rogo.PNG" alt="" id="main_logo">
+        <!--ここまで追加-->
+    </div>
+
+    <!--     js     -->
+    <script>
+        if (window.matchMedia( "(max-width: 750px)" ).matches) {
+            setTimeout(function(){
+                window.location.href = 'top.html';
+            }, 3000);
+        } else {
+            setTimeout(function(){
+                window.location.href = 'top.html';
+            }, 4800);
+        }
+        
+    </script>
+</body></html>

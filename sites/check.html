@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!--     fonts     -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="img/favicon.ico">
+
+    <!--     css     -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>ストレスチェック｜ストレスとの共存</title>
+
+</head>
+
+<body>
+    <!--ヘッダー-->
+    <header id="header">
+        <div class="flexbox">
+            <h1><a href="top.html"><img class="title_logo" src="img/rogo.PNG" alt=""></a></h1>
+            <section id="hamburger-span-child" class="hamburger-span">
+                <div class="btn-trigger" id="btn08">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </section>
+            <nav id="global_navi">
+                <ul class="gnavi">
+                    <!--  今の現在地に class="current" を付ける -->
+                    <li class="box-item"><a href="top.html">TOP</a></li>
+                    <li class="box-item has-child"><a href="stress.html">ストレスについて</a>
+                        <ul>
+                            <li><a href="definition.html">ストレスとは</a></li>
+                            <li><a href="cause.html">原因</a></li>
+                            <li><a href="symptom.html">症状</a></li>
+                        </ul>
+                    </li>
+                    <li class="box-item"><a class="pl_10" href="voice.html">みんなの声</a></li>
+                    <li class="box-item has-child"><a href="life.html">予防・対処</a>
+                        <ul>
+                            <li><a href="prevention.html">ストレスの予防</a></li>
+                            <li><a href="countermeasure.html">ストレスの対処</a></li>
+                        </ul>
+                    </li>
+                    <li class="box-item"><a class="pl_10" href="summary.html">まとめ</a></li>
+                    <li class="box-item has-child"><a href="other.html">その他</a>
+                        <ul>
+                            <li  class="reigai"><a class="current" href="check.html">ストレスチェック</a></li>
+                            <li><a href="glossary.html">用語集</a></li>
+                            <li><a href="map.html">サイトマップ</a></li>
+                            <li class="reigai"><a href="biblio.html">参考文献・サイト</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <!--  言語切り替え    -->
+            <div class="cp_ipselect cp_ipselect_ja">
+                <select class="cp_sl06" onChange="location.href=value;" required>
+                    <option value="" hidden disabled selected></option>
+
+                    <!-- valueに対応リンクを張る -->
+                    <option selected value="check.html">日本語</option>
+                    <option class="cp_ipselect_option" value="en/check_en.html">English</option>
+
+                </select>
+                <span class="cp_sl06_highlight"></span>
+                <span class="cp_sl06_selectbar"></span>
+                <label class="cp_sl06_selectlabel_img"><i class="fas fa-globe-asia earthmark" alt="地球"></i></label>
+                <label class="cp_sl06_selectlabel">Language</label>
+            </div>
+            <div id="circle-bg1" class="circle-bg circle-bg2"></div>
+        </div>
+    </header>
+    <!--/ヘッダー-->
+
+    <!--   wrapper  -->
+    <div id="symptom-wrapper">
+        <!-- sitemap-min -->
+		<section id="sitemap-min" style="margin-right: 0px;">
+            <div class="sitemap-min-moji"><span>サイトマップ</span></div>
+            <ul class="sitemap-min2">
+                <li class="catWrap-min">
+                    <div class="linkWrap-min">
+                        <h4 class="mainttl-min sitemap_reigai-min"><a href="top.html">トップページ</a></h4>
+                    </div>
+                </li>
+                <li class="catWrap-min">
+                    <div class="linkWrap-min">
+                        <h4 class="mainttl-min"><a href="stress.html">ストレスについて</a></h4>
+                            <ul class="linkList-min">
+                                <li><a href="definition.html">ストレスとは</a></li>
+                                <li><a href="cause.html">原因</a></li>
+                                <li><a href="symptom.html">症状</a></li>
+                            </ul>
+                    </div>
+                </li>
+                <li class="catWrap-min">
+                    <div class="linkWrap-min">
+                        <h4 class="mainttl-min sitemap_reigai-min"><a href="voice.html">みんなの声</a></h4>
+                    </div>
+                </li>
+                <li class="catWrap-min">
+                    <div class="linkWrap-min">
+                        <h4 class="mainttl-min"><a href="life.html">予防・対処</a></h4>
+                            <ul class="linkList-min">
+                                <li><a href="prevention.html">ストレスの予防</a></li>
+                                <li><a href="countermeasure.html">ストレスの対処</a></li>
+                            </ul>
+                    </div>
+                </li>
+                <li class="catWrap-min">
+                    <div class="linkWrap-min">
+                        <h4 class="mainttl-min sitemap_reigai-min"><a href="summary.html">まとめ</a></h4>
+                    </div>
+                </li>
+                <li class="catWrap-min">
+                    <div class="linkWrap-min">
+                        <h4 class="mainttl-min"><a href="other.html">その他</a></h4>
+                            <ul class="linkList-min">
+                                <li><a href="check.html">ストレスチェック</a></li>
+                                <li><a href="glossary.html">用語集</a></li>
+                                <li><a href="map.html">サイトマップ</a></li>
+                                <li><a href="biblio.html">参考文献・サイト</a></li>
+                            </ul>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <!--   main   -->
+        <div class="main">
+            <!--     パンくずリスト    -->
+            <section>
+                <ol class="breadcrumb">
+                    <i class="fas fa-home home"></i>
+                    <!-- 1つめ -->
+                    <li>
+                        <a href="top.html">TOP</a>
+                    </li>
+                    <!-- 2つめ -->
+                    <li>
+                        <a href="other.html">その他</a>
+                    </li>
+                    <!-- 3つめ -->
+                    <li>
+                        <p>ストレスチェック</p>
+                    </li>
+                </ol>
+            </section>
+            <!--    /パンくずリスト    -->
+            <section>
+                <h2>ストレスチェック</h2>
+                <section class="honbun">
+                    <section class="check">
+                        <section class="check_first">
+                            <p>自分の心の状態をチェックしてみましょう。
+                            <br>質問に「はい」「いいえ」で考えてみてください。</p>
+                        </section>
+                        <div class="section s_04">
+                            <div class="accordion_one_check">
+                                <div class="accordion_header_check open">
+                                    <h3>Q1.気分が沈んでやる気がない</h3>
+                                </div>
+                                <div class="accordion_inner_check">
+                                    <div class="box_one">
+                                        <div class="txt_a_ac">
+                                            <div class="accordion_one_yes-no">
+                                                <div class="accordion_header_yes-no">
+                                                    <p>はい</p>
+                                                    <div class="i_box"><i class="one_i"></i></div>
+                                                </div>
+                                                <div class="accordion_inner_yes-no">
+                                                    <div class="box_one">
+                                                        <div class="txt_a_ac">
+                                                            <p>ストレスが溜まっているかもしれません。症状が続く場合は我慢せずに家族や専門機関に相談しましょう。</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion_one_yes-no">
+                                                <div class="accordion_header_yes-no">
+                                                    <p>いいえ</p>
+                                                    <div class="i_box"><i class="one_i"></i></div>
+                                                </div>
+                                                <div class="accordion_inner_yes-no">
+                                                    <div class="box_one">
+                                                        <div class="txt_a_ac">
+                                                            <p>いい調子です！これからも体の健康を維持していきましょう。</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="cohesive checksize">
+                                                <div><a href="https://www.mhlw.go.jp/kokoro/youth/stress/kokoro/kokoro_03.html" target="_blank">詳しく知りたい方は</a></div>
+                                                <p>外部サイト（厚生労働省 こころもメンテしよう -ストレスのサイン-）</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion_one_check">
+                                <div class="accordion_header_check open">
+                                    <h3>Q2なんとなく頭痛や腹痛、肩こりなど体調が悪い</h3>
+                                </div>
+                                <div class="accordion_inner_check">
+                                    <div class="box_one">
+                                        <div class="txt_a_ac">
+                                            <div class="accordion_one_yes-no">
+                                                <div class="accordion_header_yes-no">
+                                                    <p>はい</p>
+                                                    <div class="i_box"><i class="one_i"></i></div>
+                                                </div>
+                                                <div class="accordion_inner_yes-no">
+                                                    <div class="box_one">
+                                                        <div class="txt_a_ac">
+                                                            <p>何らかの病気の可能性もありますが、病院に行っても原因がわからない場合はストレスで体がSOSを出しているのかもしれません。無理せず心と体を休めましょう。</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion_one_yes-no">
+                                                <div class="accordion_header_yes-no">
+                                                    <p>いいえ</p>
+                                                    <div class="i_box"><i class="one_i"></i></div>
+                                                </div>
+                                                <div class="accordion_inner_yes-no">
+                                                    <div class="box_one">
+                                                        <div class="txt_a_ac">
+                                                            <p>いい調子です！これからも体の健康を維持していきましょう。</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="cohesive checksize">
+                                                <div><a href="https://www.mhlw.go.jp/kokoro/youth/stress/kokoro/kokoro_03.html" target="_blank">詳しく知りたい方は</a></div>
+                                                <p>外部サイト（厚生労働省 こころもメンテしよう -ストレスのサイン-）</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion_one_check">
+                                <div class="accordion_header_check open">
+                                    <h3>Q3.突然理由もなく激しい不安に襲われ、動悸やめまいがする</h3>
+                                </div>
+                                <div class="accordion_inner_check">
+                                    <div class="box_one">
+                                        <div class="txt_a_ac">
+                                            <div class="accordion_one_yes-no">
+                                                <div class="accordion_header_yes-no">
+                                                    <p>はい</p>
+                                                    <div class="i_box"><i class="one_i"></i></div>
+                                                </div>
+                                                <div class="accordion_inner_yes-no">
+                                                    <div class="box_one">
+                                                        <div class="txt_a_ac">
+                                                            <p>上記の症状や汗が出る、体が震える、吐き気がするなど突発的に起こる症状が繰り返される病気を「<a class="yougo" href="glossary.html#i-6">パニック障害</a>」と呼びます。症状が続く場合は我慢せずに家族や専門機関に相談しましょう。</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion_one_yes-no">
+                                                <div class="accordion_header_yes-no">
+                                                    <p>いいえ</p>
+                                                    <div class="i_box"><i class="one_i"></i></div>
+                                                </div>
+                                                <div class="accordion_inner_yes-no">
+                                                    <div class="box_one">
+                                                        <div class="txt_a_ac">
+                                                            <p>いい調子です！引き続き自分の体を大切にして健康を維持しましょう。</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="cohesive checksize">
+                                                <div><a href="https://www.mhlw.go.jp/kokoro/youth/stress/know/know_02.html" target="_blank">詳しく知りたい方は</a></div>
+                                                <p>外部サイト（厚生労働省 こころもメンテしよう -不安障害-）</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion_one_check">
+                                <div class="accordion_header_check open">
+                                    <h3>Q4.定期的に運動をしている</h3>
+                                </div>
+                                <div class="accordion_inner_check">
+                                    <div class="box_one">
+                                        <div class="txt_a_ac">
+                                            <div class="accordion_one_yes-no">
+                                                <div class="accordion_header_yes-no">
+                                                    <p>はい</p>
+                                                    <div class="i_box"><i class="one_i"></i></div>
+                                                </div>
+                                                <div class="accordion_inner_yes-no">
+                                                    <div class="box_one">
+                                                        <div class="txt_a_ac">
+                                                            <p>いい調子です！体の健康は心の健康にもつながります。そのまま継続していきましょう。</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion_one_yes-no">
+                                                <div class="accordion_header_yes-no">
+                                                    <p>いいえ</p>
+                                                    <div class="i_box"><i class="one_i"></i></div>
+                                                </div>
+                                                <div class="accordion_inner_yes-no">
+                                                    <div class="box_one">
+                                                        <div class="txt_a_ac">
+                                                            <p>運動をすることでネガティブな気分を発散させたり、心をリラックスさせたりする効果があります。近所を散歩するだけでも効果があります！</p>
+                                                            
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="cohesive checksize">
+                                                <div><a href="https://www.mhlw.go.jp/kokoro/youth/stress/self/self_01.html" target="_blank">詳しく知りたい方は</a></div>
+                                                <p>外部サイト（厚生労働省 こころもメンテしよう -体を動かす-）</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion_one_check">
+                                <div class="accordion_header_check open">
+                                    <h3>Q5.バランスの取れた食事がとれている</h3>
+                                </div>
+                                <div class="accordion_inner_check">
+                                    <div class="box_one">
+                                        <div class="txt_a_ac">
+                                            <div class="accordion_one_yes-no">
+                                                <div class="accordion_header_yes-no">
+                                                    <p>はい</p>
+                                                    <div class="i_box"><i class="one_i"></i></div>
+                                                </div>
+                                                <div class="accordion_inner_yes-no">
+                                                    <div class="box_one">
+                                                        <div class="txt_a_ac">
+                                                            <p>いい調子です！この習慣を続けていきましょう。</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion_one_yes-no">
+                                                <div class="accordion_header_yes-no">
+                                                    <p>いいえ</p>
+                                                    <div class="i_box"><i class="one_i"></i></div>
+                                                </div>
+                                                <div class="accordion_inner_yes-no">
+                                                    <div class="box_one">
+                                                        <div class="txt_a_ac">
+                                                            <p>バランスの良い食事や規則正しい生活は、ストレスに負けない体を作ることができます。自分の生活習慣を見直してみましょう。</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="cohesive checksize">
+                                                <div><a href="https://www.mhlw.go.jp/kokoro/first/first02_2.html" target="_blank">詳しく知りたい方は</a></div>
+                                                <p>外部サイト（厚生労働省 みんなのメンタルヘルス -ストレスをためない暮らし方-）</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="biblio_min">
+                        <h3>参考文献・サイト</h3>
+                        <ul>
+                            <li>・<a href="https://www.mhlw.go.jp/kokoro/youth/stress/index.html">厚生労働省 こころもメンテしよう 若者を支えるメンタルヘルスサイト -ストレスとこころ</a></li>
+                            <li>・<a href="https://www.mhlw.go.jp/kokoro/first/first02_2.html">厚生労働省 みんなのメンタルヘルス -ストレスをためないくらし</a></li>
+                        </ul>
+                    </section>
+                </section>
+            </section>
+            <section>
+                <div class="page">
+                    <a href="other.html" class="btn btn-border btn-border_before">前のページ</a>
+                    <a href="glossary.html" class="btn btn-border btn-border_after">次のページ</a>
+                </div>
+                <div class="page-name">
+                    <p class="page-name-plev">その他</p>
+                    <p class="page-name-next">用語集</p>
+                </div>
+            </section>
+        </div>
+        <!--  /main   -->
+    </div>
+    <!--  /wrapper  -->
+
+    <!--  フッター  -->
+    <footer class="footer">
+        <small>&copy; 2021 ストレスとの共存</small>
+    </footer>
+    <!--  /フッター  -->
+
+    <!--  ページトップリンク  -->
+    <p id="page-top"><a href="#"><img src="img/yazirusi1.PNG" alt=""></a></p>
+
+    <!--     js     -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/jquery.ripples-min.js"></script>
+    <script src="js/script.js"></script>
+</body></html>

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <!--     fonts     -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="img/favicon.ico">
+
+    <!--     css     -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>参考文献・サイト｜ストレスとの共存</title>
+
+</head>
+
+<body>
+    <!--ヘッダー-->
+    <header id="header">
+        <div class="flexbox">
+            <h1><a href="top.html"><img class="title_logo" src="img/rogo.PNG" alt=""></a></h1>
+            <section id="hamburger-span-child" class="hamburger-span">
+                <div class="btn-trigger" id="btn08">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </section>
+            <nav id="global_navi">
+                <ul class="gnavi">
+                    <!--  今の現在地に class="current" を付ける -->
+                    <li class="box-item"><a href="top.html">TOP</a></li>
+                    <li class="box-item has-child"><a href="stress.html">ストレスについて</a>
+                        <ul>
+                            <li><a href="definition.html">ストレスとは</a></li>
+                            <li><a href="cause.html">原因</a></li>
+                            <li><a href="symptom.html">症状</a></li>
+                        </ul>
+                    </li>
+                    <li class="box-item"><a class="pl_10" href="voice.html">みんなの声</a></li>
+                    <li class="box-item has-child"><a href="life.html">予防・対処</a>
+                        <ul>
+                            <li><a href="prevention.html">ストレスの予防</a></li>
+                            <li><a href="countermeasure.html">ストレスの対処</a></li>
+                        </ul>
+                    </li>
+                    <li class="box-item"><a class="pl_10" href="summary.html">まとめ</a></li>
+                    <li class="box-item has-child"><a href="other.html">その他</a>
+                        <ul>
+                            <li  class="reigai"><a href="check.html">ストレスチェック</a></li>
+                            <li><a href="glossary.html">用語集</a></li>
+                            <li><a href="map.html">サイトマップ</a></li>
+                            <li class="reigai"><a class="current" href="biblio.html">参考文献・サイト</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <!--  言語切り替え    -->
+            <div class="cp_ipselect cp_ipselect_ja">
+                <select class="cp_sl06" onChange="location.href=value;" required>
+                    <option value="" hidden disabled selected></option>
+
+                    <!-- valueに対応リンクを張る -->
+                    <option selected value="biblio.html">日本語</option>
+                    <option class="cp_ipselect_option" value="en/biblio_en.html">English</option>
+
+                </select>
+                <span class="cp_sl06_highlight"></span>
+                <span class="cp_sl06_selectbar"></span>
+                <label class="cp_sl06_selectlabel_img"><i class="fas fa-globe-asia earthmark" alt="地球"></i></label>
+                <label class="cp_sl06_selectlabel">Language</label>
+            </div>
+            <div id="circle-bg1" class="circle-bg circle-bg2"></div>
+        </div>
+    </header>
+    <!--/ヘッダー-->
+
+    <!--   wrapper  -->
+    <div id="wrapper">
+        <!-- sitemap-min -->
+		<section id="sitemap-min" style="margin-right: 0px;">
+            <div class="sitemap-min-moji"><span>サイトマップ</span></div>
+            <ul class="sitemap-min2">
+                <li class="catWrap-min">
+                    <div class="linkWrap-min">
+                        <h4 class="mainttl-min sitemap_reigai-min"><a href="top.html">トップページ</a></h4>
+                    </div>
+                </li>
+                <li class="catWrap-min">
+                    <div class="linkWrap-min">
+                        <h4 class="mainttl-min"><a href="stress.html">ストレスについて</a></h4>
+                            <ul class="linkList-min">
+                                <li><a href="definition.html">ストレスとは</a></li>
+                                <li><a href="cause.html">原因</a></li>
+                                <li><a href="symptom.html">症状</a></li>
+                            </ul>
+                    </div>
+                </li>
+                <li class="catWrap-min">
+                    <div class="linkWrap-min">
+                        <h4 class="mainttl-min sitemap_reigai-min"><a href="voice.html">みんなの声</a></h4>
+                    </div>
+                </li>
+                <li class="catWrap-min">
+                    <div class="linkWrap-min">
+                        <h4 class="mainttl-min"><a href="life.html">予防・対処</a></h4>
+                            <ul class="linkList-min">
+                                <li><a href="prevention.html">ストレスの予防</a></li>
+                                <li><a href="countermeasure.html">ストレスの対処</a></li>
+                            </ul>
+                    </div>
+                </li>
+                <li class="catWrap-min">
+                    <div class="linkWrap-min">
+                        <h4 class="mainttl-min sitemap_reigai-min"><a href="summary.html">まとめ</a></h4>
+                    </div>
+                </li>
+                <li class="catWrap-min">
+                    <div class="linkWrap-min">
+                        <h4 class="mainttl-min"><a href="other.html">その他</a></h4>
+                            <ul class="linkList-min">
+                                <li><a href="check.html">ストレスチェック</a></li>
+                                <li><a href="glossary.html">用語集</a></li>
+                                <li><a href="map.html">サイトマップ</a></li>
+                                <li><a href="biblio.html">参考文献・サイト</a></li>
+                            </ul>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <!--   main   -->
+        <div class="main">
+            <!--     パンくずリスト    -->
+            <section>
+                <ol class="breadcrumb">
+                    <i class="fas fa-home home"></i>
+                    <!-- 1つめ -->
+                    <li>
+                        <a href="top.html">TOP</a>
+                    </li>
+                    <!-- 2つめ -->
+                    <li>
+                        <a href="other.html">その他</a>
+                    </li>
+                    <!-- 3つめ -->
+                    <li>
+                        <p>参考文献・サイト</p>
+                    </li>
+                </ol>
+            </section>
+            <!--    /パンくずリスト    -->
+            <section>
+                <h2>参考文献・サイト</h2>
+                <section class="biblio">
+                    <h3>参考文献</h3>
+                    <ul>
+                        <li>福間詳 「ストレスのはなし-メカニズムと対処法」 (中公新書・2017/4/19)</li>
+                    </ul>
+                    <h3>参考サイト</h3>
+                    <ul>
+                       <li><a href="https://www.mhlw.go.jp/kokoro/index.html">みんなのメンタルヘルス｜厚生労働省</a>（https://www.mhlw.go.jp/kokoro/）</li>
+                        <li><a href="https://www.mhlw.go.jp//kokoro/youth/index.html">こころと体のセルフケア / こころもメンテしよう～若者を支えるメンタルヘルスサイト～｜厚生労働省</a>（https://www.mhlw.go.jp//kokoro/youth/stress/self/top.html）</li>
+                        <li><a href="https://cocoromi-cl.jp/knowledge/psychiatry-disease/stress/about-stress/">ストレス障害の症状・診断・治療 / 元住吉こころみクリニック</a>（https://cocoromi-cl.jp/knowledge/psychiatry-disease/stress/about-stress/）</li>
+                        <li><a href="https://cocoromi-cl.jp/knowledge/psychiatry-disease/depression/about-depression/">うつ病の症状・診断・治療 / 元住吉こころみクリニック</a>（https://cocoromi-cl.jp/knowledge/psychiatry-disease/depression/about-depression/)</li>
+                        <li><a href="http://seseragi-mentalclinic.com/neurosis/">神経症ってどんな病気？ / せせらぎメンタルクリニック</a>（http://seseragi-mentalclinic.com/neurosis/）</li>
+                        <li><a href="https://www.h-cl.org/column/gastric-ulcer/">胃潰瘍を徹底解説：症状は、原因は、治療は、胃がんとの関係は / ヒロオカクリニック</a>（https://www.h-cl.org/column/gastric-ulcer/）</li>
+                        
+                    </ul>
+                    <h3>引用</h3>
+                    <ul>
+                        <li>榊原隆人「生物基礎早わかり一問一答」（KADOKAWA・2017/5/15）</li>
+                        <li>浅島誠 ほか27名 「スタンダード生物」（東京書籍・2020/2/10）</li>
+                        <li><a href="http://www.pref.kyoto.jp/health/health/health09_b.html">ストレスの仕組みー生物、心理、社会的に見た場合 / 京都府HP</a>（http://www.pref.kyoto.jp/health/health/health09_b.html）</li>
+                        <li><a href="https://www.jstage.jst.go.jp/article/fpj/126/3/126_3_184/_pdf">ストレス反応の身体表出における大脳辺縁系―視床下部の役割 / 西条寿夫，堀悦郎，小野武年</a>（https://www.jstage.jst.go.jp/article/fpj/126/3/126_3_184/_pdf）</li>
+                        <li><a href="https://ja.wikipedia.org/wiki/%E5%86%85%E5%88%86%E6%B3%8C%E5%99%A8">内分泌器 / ウィキペディア</a>（https://ja.wikipedia.org/wiki/内分泌器）</li>
+                        <li><a href="https://ja.wikipedia.org/wiki/%E6%81%90%E6%80%96%E7%97%87">恐怖症 / ウィキペディア</a>（https://ja.wikipedia.org/wiki/恐怖症）</li>
+                        <li><a href="（https://ja.wikipedia.org/wiki/%E7%9C%BC%E7%9E%BC%E7%97%99%E6%94%A3）">眼瞼痙攣 / ウィキペディア/</a>(https://ja.wikipedia.org/wiki/眼瞼痙攣)</li>
+
+                    </ul>
+                </section>
+            </section>
+            <section>
+                <div class="page">
+                    <a href="map.html" class="btn btn-border btn-border_before">前のページ</a>
+                </div>
+                <div class="page-name">
+                    <p class="page-name-plev-biblio">サイトマップ</p>
+                </div>
+            </section>
+        </div>
+        <!--  /main   -->
+    </div>
+    <!--  /wrapper  -->
+
+    <!--  フッター  -->
+    <footer class="footer">
+        <small>&copy; 2021 ストレスとの共存</small>
+    </footer>
+    <!--  /フッター  -->
+
+    <!--  ページトップリンク  -->
+    <p id="page-top"><a href="#"><img src="img/yazirusi1.PNG" alt=""></a></p>
+
+    <!--     js     -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/jquery.ripples-min.js"></script>
+
+    <script src="js/script.js"></script>
+</body></html>
